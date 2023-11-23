@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+header a {
+  color: var(--1, #4b5d68);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  text-decoration: none;
+}
+
+header .container {
+  width: 1170px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+}
+
+.menu_list {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.menu_list a:hover {
+  color: #8a40ee;
+}
